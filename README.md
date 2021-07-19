@@ -1,5 +1,5 @@
-# [Profile Picture Class](https://github.com/Akawi85/Profile_Picture_Classifier)
-This Web App uses the [EfficientNet_Lite0](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet/lite) model to build an API that predicts the ethnic class of Profile Pictures.
+# [Profile Picture Classifier Based on Ethnicity](https://github.com/Akawi85/Profile_Picture_Classifier)
+This Web App uses the [EfficientNet_Lite0](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet/lite) model to build an API that predicts the ethnicity of Profile Pictures.
 
 ### Steps
 The `scrape_images_of_ethnicity.ipynb` notebook was executed locally to scrape two hundred and twenty (220) images of asian and black americans from google. The scrapper only scrapped for 2 ethnic classes, namely:
@@ -38,4 +38,4 @@ The `tflite_model_maker` model is stored in the `model_dir` folder as `model.tfl
 # Further Steps  
 - [ ] Create a more sophisticated web interface
 - [ ] scrape more image dataset to create an even better model
-- [ ] Include more classes
+- [ ] Include more ethnic classes
