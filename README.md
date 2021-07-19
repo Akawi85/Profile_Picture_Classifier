@@ -1,4 +1,4 @@
-# [Profile Picture Class]()
+# [Profile Picture Class](https://github.com/Akawi85/Profile_Picture_Classifier)
 This Web App uses the [EfficientNet_Lite0](https://github.com/tensorflow/tpu/tree/master/models/official/efficientnet/lite) model to build an API that predicts the ethnic class of Profile Pictures.
 
 ### Steps
@@ -25,7 +25,7 @@ The `tflite_model_maker` model is stored in the `model_dir` folder as `model.tfl
 - On the homepage of the web app click on `Choose File` to select an image
 - Select a toyota image of either an asian or black american from your local machine
 - Click on the `Predict` button to the right
-- Wait a few seconds for the system to process and predict the ethnicity profile picture.
+- Wait a few seconds for the system to process and predict the ethnicity of the profile picture.
 - Viola!!! Here you have your prediction.
 
 # Snapshot of Web App  
