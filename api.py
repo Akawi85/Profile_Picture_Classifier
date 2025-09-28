@@ -1,7 +1,7 @@
 """
 Author: Akawi Ifeanyi Courage
 E-mail address: Ifeanyi.akawi85@gmail.com
-Purpose of program: Predict Toyota model
+Purpose of program: Predict Ethnicity model
 """
 # Import necessary libraries
 from flask import Flask, render_template, request
@@ -81,3 +81,4 @@ def predict():
 # write the main function
 if __name__ == '__main__':
     app.run(debug=True)
+
